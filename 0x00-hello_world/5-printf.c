@@ -1,4 +1,4 @@
-#include <stido.h>
+-Wall gcc 
 
 /**
  * main -main function
