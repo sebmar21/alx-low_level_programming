@@ -1,4 +1,4 @@
--Wall gcc 
+gcc -wall 
 
 /**
  * main -main function
