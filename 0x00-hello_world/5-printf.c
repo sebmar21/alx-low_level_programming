@@ -1,9 +1,9 @@
-gcc -wall 
+ #include<stdio.h>
 
 /**
- * main -main function
- * Description: The function print some text to the stdout
- * Return:returns void
+ * main -Entry point
+ *
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
