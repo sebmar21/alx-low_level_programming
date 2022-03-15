@@ -4,7 +4,7 @@
  * print_sign - print + if n is greater than zero,
  *              0 if n is zero and - if n is less than zero.
  *@c: takes integer types input for function.
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
  */
 int print_sign(int n)
 {
