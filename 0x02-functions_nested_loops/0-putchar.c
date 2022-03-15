@@ -1,14 +1,13 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- *main - Entry point 
+ * main - Entry point 
  *Description: print _putchar using putchar prototype
  *Returns: Always 0 (Success)
  */
 int main(void)
 {
-	char str[] = "_putchar"
+	char str[] = "_putchar";
 	inc ch;
 
 	for (ch = 0; ch <8; ++ch)
@@ -16,4 +15,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
