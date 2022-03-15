@@ -4,11 +4,14 @@
  * _isalpha - checks if character is aletter
  *            both lowercase or uppercase
  * @c: take input from other functions.
- * Return: 1 is c if true else 0
+ * Return: 1 if c is a letter, lowercase or uppercase
+ * Returns 0 otherwise
  */
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c >= 'Z'))
 		return (1);
-	return (0);
+	else
+
+	        return (0);
 }
