@@ -48,7 +48,7 @@ int main(void)
 			--inital0s;
 		}
 
-		printf("%lu",fl);
+		printf("%lu", flo);
 
 		sum = (fl + f2) % mx;
 		sumo = flo + f2o + (fl + f2) / mx;
