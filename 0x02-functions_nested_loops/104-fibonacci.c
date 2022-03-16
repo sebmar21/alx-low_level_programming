@@ -1,4 +1,5 @@
 #include"main.h"
+#include <main.h>
 
 /**
  * numLength - returns the length of string
@@ -39,12 +40,12 @@ int main(void)
 	{
 		if (flo > 0)
 			printf("%lu", flo);
-		inital0s = numLength(mx) - 1 - numLength(fl);
+		inital0s = numLength(mx) - 1 - numLength(flo);
 
 		while (flo > 0 && inital0s > 0)
 		{
 			printf("%d", 0);
-			--initial0s;
+			--inital0s;
 		}
 
 		printf("%lu",fl);
@@ -63,4 +64,3 @@ int main(void)
 	}
 	return (0);
 }
-
