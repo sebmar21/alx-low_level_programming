@@ -3,7 +3,7 @@
 /**
  * print - n times table startiong with 0
  * @n: takes number input
- *
+ *Return: Always 0 (Success)
  */
 
 void print_times_table(int n)
@@ -34,9 +34,8 @@ void print_times_table(int n)
 				_putchar((prod / 10) + 48);
 			_putchar((prod % 10) + 48);
 		}
-                _putchar('\n');
+		_putchar('\n');
 
 }
 }
-
 }
