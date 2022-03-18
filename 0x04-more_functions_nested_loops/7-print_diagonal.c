@@ -3,8 +3,8 @@
 /**
  * print_diagonal - check for a digit
  * @n : number of \\ to be printed
- * Return:void
- */
+ * Return: Always 0 (Success)
+ * */
 void print_diagonal(int n)
 {
 	int i = 0, ii;
