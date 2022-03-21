@@ -1,16 +1,17 @@
 #include "holberton.h"
 
 /**
- * puts2 - print character of string
- *         in array starting from the first
- *         character followed by the rest of the 
- *         even index array
+ * puts2 - print character of a string
+ *      in an array starting from the first
+ *      character followed by the rest of the
+ *      even index array
+ *
  * @str: string input array pointer
  *
- * Return: Nothing
- */
+ * Return: nothing
+*/
 
-int puts2(char *str)
+void puts2(char *str)
 {
 	int i;
 
@@ -18,6 +19,7 @@ int puts2(char *str)
 	{
 		if (str[i] == '\0')
 			break;
+
 		if (i % 2 == 0)
 			_putchar(str[i]);
 	}
