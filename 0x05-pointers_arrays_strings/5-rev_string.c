@@ -1,14 +1,14 @@
 /**
  * rev_string - reverse a string
  *
- *@s: string input pointer
+ * @s: string input pointer
  *
- * Return: Nothing
- */
+ * Return: nothing
+*/
 
 void rev_string(char *s)
 {
-	int c = 0, f, 1;
+	int c = 0, f, l;
 	char temp;
 
 	/*find length of string*/
@@ -20,13 +20,13 @@ void rev_string(char *s)
 	}
 
 	/*reverse the string by swapping*/
-	for (f = 0; f < (c-1); f++)
+	for (f = 0; f < (c - 1); f++)
 	{
-		for (1 = f + 1; 1 > 0; 1--)
+		for (l = f + 1; l > 0; l--)
 		{
-			temp  = *(s + 1);
-			*(s + 1) = *(s + (1 - 1));
-			*(s +(1 - 1)) = temp;
+			temp = *(s + l);
+			*(s + l) = *(s + (l - 1));
+			*(s + (l - 1)) = temp;
 		}
 	}
 }
