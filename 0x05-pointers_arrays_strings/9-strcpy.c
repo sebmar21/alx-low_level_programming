@@ -6,14 +6,14 @@
  * @dest: pointer to char
  * @src: pointer to char
  *
- * Return: pointer to @src
+ * Return: pointer to @dest
 */
 
 char *_strcpy(char *dest, char *src)
 {
 	int c;
 
-	for (c = 0; src[c];)
+	for (c = 0; dest[c];)
 	{
 		dest[c] = src[c];
 		c++;
