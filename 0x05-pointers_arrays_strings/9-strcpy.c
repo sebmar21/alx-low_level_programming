@@ -6,7 +6,7 @@
  * @dest: pointer to char
  * @src: pointer to char
  *
- * Return: pointer to @dest
+ * Return: pointer to @src
 */
 
 char *_strcpy(char *dest, char *src)
