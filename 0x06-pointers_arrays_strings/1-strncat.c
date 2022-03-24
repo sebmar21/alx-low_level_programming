@@ -16,7 +16,8 @@ char *_strncat(char *dest, char *src, int n)
 
 	/*find size of dest array*/
 	while (dset[c])
-		C++;
+		c++;
+
 	/**
 	 * src does not need to be null terminated
 	 * if it contains n or more bytes
@@ -28,4 +29,3 @@ char *_strncat(char *dest, char *src, int n)
 
 	return (dest);
 }
-
