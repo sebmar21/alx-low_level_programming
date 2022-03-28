@@ -3,27 +3,27 @@
  *
  * @haystack: input string to search for matching
  *            substrings
- * @needle: substring to search for
+ * @needle: subtring to search for
  *
  * Return: a pointer to the beginning
- *          of the located substring or
- *          NULL if substring is not found
- */
+ *         of the located substring or
+ *         NULL if substring is not found
+*/
 
 char *_strstr(char *haystack, char *needle)
 {
 	/**
-	 * we initalize a helping variable
+	 * we initialize a helping variable
 	 * to assist in returning one of
 	 * our parameters pointers haystack
-	 */
+	*/
 	char *h, *n;
 
 	while (*haystack != '\0')
 	{
 		h = haystack;
 		n = needle;
-		while(*n != '\0' && *haystack == *n)
+		while (*n != '\0' && *haystack == *n)
 		{
 			haystack++;
 			n++;
