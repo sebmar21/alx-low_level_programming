@@ -1,9 +1,10 @@
 /**
  * _strchr - afunction that locate in a string
+ *
  * @s: pointer to our string array input
  * @c: character to locate from input array
  *
- * Return: first occurance of the character s or null if the character is not found
+ * Return: first occurance of character or null if the character not found
  */
 
 char *_strchr(char *s, char c)
