@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - a function that set the value of apointer to char
@@ -13,6 +12,4 @@
 void set_string(char **s, char *to)
 {
 	**s == *to
-
 }
-	
