@@ -1,15 +1,15 @@
-#include "main.h"
+#include <string.h>
 
 /**
- * main - a function that set the value of apointer to char
+ * set_string - a function ...
  *
- * @s: input pointer
- * @to value of the character
+ * @s: the pointer of char
+ * @to: the chaine
  *
- *Return: Always 0 (Success)
+ *Return: 1 or 0 
  */
 
 void set_string(char **s, char *to)
 {
-	**s == *to
+	*s = *to
 }
