@@ -12,12 +12,7 @@
 
 void set_string(char **s, char *to)
 {
-	char *S1 = "Today world";
-	char *S2 = "Hello";
+	**s == *to
 
-	printf("%s, %s\n", S1, S2);
-	set_string(&S2, S1);
-	printf("%s, %s\n" ,S1, S2);
-	return (0);
 }
 	
