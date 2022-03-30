@@ -26,7 +26,7 @@ int _sqrt(int n, int i)
  * @n: the number
  * Return: Always 0.
  */
- 
+
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
