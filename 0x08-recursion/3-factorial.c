@@ -6,7 +6,7 @@
  *             a given number
  *@n: input integer
  *
- * Return (0) Always (Success)
+ * Return: factorial of @n
  */
 
 int factorial(int n)
