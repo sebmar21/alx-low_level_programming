@@ -12,7 +12,7 @@ void _puts_recursion(const char *s)
 {
 	if (*s != '\0')
 	{
-		putchar(*s);
+		_putchar(*s);
 	_puts_recursion(s + 1);
 	}
         else
