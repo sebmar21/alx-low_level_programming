@@ -1,18 +1,51 @@
-#include"main.h"
-#include<stdio.h>
+/**
+* _strlen_recursion - function
+*
+* @s: the chaine
+* Return: Always 0.
+*/
+
+int _strlen_recursion(char *s)
+{
+
+	if (*s == '\0')
+		return (0);
+	else
+		return (1 + _strlen_recursion(s + 1));
+}
 
 /**
- * is_palindrome - a function that returns 1
- *                 if a string is
- *                 a palindrome
- *@s: string
- *Return: Always 0 (Success)
- */
+* palidrone - function
+*
+* @s: chaine of the char
+* @taille: the number
+* @i: the number
+* Return: Always 0.
+*/
+int palidrone(char *s, int taille, int i)
+{
+	if (s[i] != '\0')
+	{
+		if (s[i] != s[taille - i])
+			return (0);
+		else
+			return (palidrone(s, taille, i + 1));
+	}
+	else
+		return (1);
+}
+
+/**
+* is_palindrome - function
+*
+* @s: the chaine of char
+* Return: Always 0.
+*/
 
 int is_palindrome(char *s)
 {
 	if (s[0] == '\0')
 		return (1);
-	else
-		return (0);
+	return (palidrone(s, _strlen_recursion(s) - 1, 0));
 }
+
