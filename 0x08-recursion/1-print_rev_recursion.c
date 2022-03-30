@@ -11,10 +11,9 @@
 
 void _print_rev_recursion(char *s)
 {
-	int str[100] = "abc";
-
+	if (*s != '\0')
+	{
 	_print_rev_recursion(s + 1);
-
-	printf("%d ",rev(str));
-	return (0);
+	putchar(*s);
+	}
 }
