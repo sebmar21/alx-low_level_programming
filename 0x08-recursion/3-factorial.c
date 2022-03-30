@@ -10,7 +10,6 @@
  */
 
 int factorial(int n)
-//recursive version
 {
 	if (n < 0) return -1;
 	else
