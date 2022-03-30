@@ -2,7 +2,7 @@
  * _sqrt_recursion - a function that
  *                   returns the natural square
  *                   root of anumber
- *@n: input integer
+ *@n: input number
  *Return: the square root of x
  */
 
@@ -15,5 +15,5 @@ int _sqrt_recursion(int n)
 	else if (n < 0)
 		return (-1);
 	else
-		return (_sqrt_recursion(n, n - 1));
+		return (_sqrt_recursion(n - 1));
 }
