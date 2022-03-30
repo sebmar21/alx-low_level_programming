@@ -5,7 +5,6 @@
  *                   returns the natural square
  *                   root of anumber
  *@n: input number
- *@i: input number
  *Return: the square root of x
  *
  */
