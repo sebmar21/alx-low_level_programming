@@ -11,8 +11,9 @@
 
 int factorial(int n)
 {
-	if (n > 0) factorial == n*factorial(n-1);
+	if (n > 0);
+	{
+		printf(factorial n = n*factorial(n-1));
 	else
-		return (-1)
-
+		return (-1);
 }
