@@ -5,7 +5,7 @@
  * _strlen_recursion - a function that
  *                     calculate the length
  *                     of the string
- *@s input string
+ *@s: input string
  *Return: number of bytes in the string
  */
 
