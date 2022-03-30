@@ -1,5 +1,3 @@
-#include <math.h>
-
 /**
  * _pow_recursion - a function that return
  *                  the value of x raised
