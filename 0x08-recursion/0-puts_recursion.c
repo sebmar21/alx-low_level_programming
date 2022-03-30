@@ -8,8 +8,13 @@
  * Return: nonnegative number (Success)
  */
  
-void _puts_recursion(char *s)
+void _puts_recursion(const char *s)
 {
-	int puts(char *s);
-	return (0);
+	if (*s != '\0')
+	{
+		putchar(*s);
+	_puts_recursion(s + 1);
+	}
+        else
+		_putchar('\n');
 }
