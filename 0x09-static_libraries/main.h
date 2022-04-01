@@ -1,81 +1,46 @@
-0-isupper.o
-0-memset.o
-0-strcat.o
-1-isdigit.o
-1-memcpy.o
-1-strncat.o
-100-atoi.o
-2-strchr.o
-2-strlen.o
-2-strncpy.o
-3-islower.o
-3-puts.o
-3-strcmp.o
-3-strspn.o
-4-isalpha.o
-4-strpbrk.o
-5-strstr.o
-6-abs.o
-9-strcpy.o
-_putchar.o
-0-isupper.o:
-0000000000000000 T _isupper
+#ifndef MAIN_H
+#define MAIN_H
 
-0-memset.o:
-0000000000000000 T _memset
+#include <stdio.h>
 
-0-strcat.o:
-0000000000000000 T _strcat
+int _putchar(char c);
 
-1-isdigit.o:
-0000000000000000 T _isdigit
+int _islower(int c);
 
-1-memcpy.o:
-0000000000000000 T _memcpy
+int _isalpha(int c);
 
-1-strncat.o:
-0000000000000000 T _strncat
+int _abs(int n);
 
-100-atoi.o:
-0000000000000000 T _atoi
+int _isupper(int c);
 
-2-strchr.o:
-0000000000000000 T _strchr
+int _isdigit(int c);
 
-2-strlen.o:
-0000000000000000 T _strlen
+int _strlen(char *s);
 
-2-strncpy.o:
-0000000000000000 T _strncpy
+void _puts(char *s);
 
-3-islower.o:
-0000000000000000 T _islower
+char *_strcpy(char *dest, char *src);
 
-3-puts.o:
-                 U _putchar
-0000000000000000 T _puts
+int _atoi(char *s);
 
-3-strcmp.o:
-0000000000000000 T _strcmp
+char *_strcat(char *dest, char *src);
 
-3-strspn.o:
-0000000000000000 T _strspn
+char *_strncat(char *dest, char *src, int n);
 
-4-isalpha.o:
-0000000000000000 T _isalpha
+char *_strncpy(char *dest, char *src, int n);
 
-4-strpbrk.o:
-0000000000000000 T _strpbrk
+int _strcmp(char *s1, char *s2);
 
-5-strstr.o:
-0000000000000000 T _strstr
+char *_memset(char *s, char b, unsigned int n);
 
-6-abs.o:
-0000000000000000 T _abs
+char *_memcpy(char *dest, char *src, unsigned int n);
 
-9-strcpy.o:
-0000000000000000 T _strcpy
+char *_strchr(char *s, char c);
 
-_putchar.o:
-0000000000000000 T _putchar
-                 U write
+unsigned int _strspn(char *s, char *accept);
+
+char *_strpbrk(char *s, char *accept);
+
+char *_strstr(char *haystack, char *needle);
+
+#endif /*MAIN_H */
