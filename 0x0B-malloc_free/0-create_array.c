@@ -1,3 +1,5 @@
+#include<stdlib.h>
+
 /**
  * create_array - a function that creates
  *                an array of chars
@@ -5,7 +7,7 @@
  *                a specific char
  *@size: input number
  *@c: input char
- *Return: NULL
+ *Return: 1 or 0
  */
 
 char *create_array(unsigned int size, char c)
