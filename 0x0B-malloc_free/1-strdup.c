@@ -19,15 +19,15 @@ char *_strdup(char *str)
 		return (NULL);
 	while (str[fan])
 		fan++;
-	fan = malloc((fan + 1) * sizeof(char));
-	if (fan != NULL)
+	abc = malloc((fan + 1) * sizeof(char));
+	if (abc != NULL)
 	{
 		while(str[j])
 		{
-			fan[j] = str[j];
+			abc[j] = str[j];
 			j++;
 		}
-		fan[j] = '\0';
+		abc[j] = '\0';
 	}
-	return (fan);
+	return (abc);
 }
