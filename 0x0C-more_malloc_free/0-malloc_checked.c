@@ -4,8 +4,8 @@
  * malloc_cheked - allocates memory using malloc
  *
  *@b: amount of allocaters
- *Return: pointer to our new allocated memory
- *        exit with 98 if malloc fails
+ *Return: pointer
+ *
  */
 
 void *malloc_checked(unsigned int b)
