@@ -1,19 +1,19 @@
-#include <stdlib.h>
+#include<stdlib.h>
 #include "main.h"
 
 /**
- * malloc_cheked - allocates memory using malloc
+ * malloc_checked - a function ...
+ * @b: the chaine
  *
- *@b: amount of allocaters
- *Return: pointer
- *
+ * Return: 1 or 0
  */
 
 void *malloc_checked(unsigned int b)
 {
-	void *new = malloc(b);
+	void *ptr = malloc(b);
 
-	if (new == NULL)
+	if (ptr == NULL)
 		exit(98);
-	return (new);
+	return (ptr);
 }
+
