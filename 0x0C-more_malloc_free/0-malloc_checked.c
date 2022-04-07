@@ -1,8 +1,8 @@
-#include<stdlib.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * malloc_checked - a function ...
+ * malloc_checked - a function
  * @b: the chaine
  *
  * Return: 1 or 0
