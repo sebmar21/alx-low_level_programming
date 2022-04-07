@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -13,7 +14,7 @@ void *malloc_checked(unsigned int b)
 	void *new_mem;
 
 	new_mem = malloc(b);
-	if (new_mem == NULL)
+	if (new_mem != '\0')
 		exit(98);
 	return (new_mew);
 }
