@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	char *operator;
 
 	/* Error if arguments are not 4 with the executable */
-	if (argc !=4)
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
